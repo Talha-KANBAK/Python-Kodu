@@ -13,7 +13,7 @@ teta_derece = float(input("Sacilma acisi (derece): "))
 teta_rad = math.radians(teta_derece)
 
 # Hesaplama
-# Esnek Sacilma FormulU: E'/E = [(cos(teta) + sqrt(A^2 - sin^2(teta))) / (A+1)]^2
+# Esnek Sacilma Formulu: E'/E = [(cos(teta) + sqrt(A^2 - sin^2(teta))) / (A+1)]^2
 
 karekok_ici = (A**2) - (math.sin(teta_rad)**2)
 
